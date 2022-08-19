@@ -46,11 +46,19 @@ function NewComponent(){
         <p>I am learning React!!!</p>
     )
 }
+// Creation of component
+function NewComponent2(){
+  return(
+      <p>NewComponent2</p>
+  )
+}
+
 
 ReactDOM.render(
     <div>
         <Navbar/>
         <NewComponent/>
+        <NewComponent2/>
     </div>,
     document.getElementById("root")
 )
