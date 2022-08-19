@@ -43,7 +43,7 @@ function Navbar(){
 // Creation of component
 function NewComponent(){
     return(
-        <p>I am learning React!!!11</p>
+        <p>I am learning React!!!</p>
     )
 }
 
